@@ -23,11 +23,12 @@ class Arr
                 $value = $value->toArray();
             }
 
-            // If the value is a filled array then recursively filter it.
-            if (is_array($value)) {
-                $value = static::filter($value);
-                continue;
-            }
+            // LENDIO - commented out to fix bug where null values were being filtered out of example json
+            // // If the value is a filled array then recursively filter it.
+            // if (is_array($value)) {
+            //     $value = static::filter($value);
+            //     continue;
+            // }
 
             // If the value is a specification extension, then skip the null
             // check below.
