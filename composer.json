@@ -1,5 +1,5 @@
 {
-  "name": "goldspecdigital/oooas",
+  "name": "lendiodevs/goldspecdigital-oooas",
   "description": "An object oriented approach to generating OpenAPI specs, implemented in PHP.",
   "type": "library",
   "license": "MIT",
